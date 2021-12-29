@@ -1,0 +1,226 @@
+@media (min-width: 660px) {
+.navbar{
+    display: block;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 45px;
+
+}
+.sec2 .btnW{
+flex-direction: row;
+}
+
+.sec3 .sec3B{
+    font-size: 20px;
+    width: 60%;
+}
+
+.sec4{
+    height: 100vh;
+}
+
+.sec4 .sec4W{
+    height: 45vh;
+    padding: 25px;
+    width: 60%;
+}
+
+.frmCrd{
+    width: 30vw;
+}
+
+.frmCrd form{
+    position: relative;
+    top: 15%;
+}
+
+.mobilePar{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.location{
+    transform: translateX(-50px);
+}
+
+.frmCrd input[type=text], .frmCrd input[type=email], .frmCrd textarea{
+    font-size: 18px;
+    margin-top: 2rem;
+    transform: translateY(-30px);
+}
+
+.frmCrd label{
+    font-size: 24px;
+    margin-top: 1rem;
+}
+
+.frmCrd h1{
+    font-size: 36px;
+}}
+
+
+@media (min-width: 900px) {
+    .navbar{
+        display: none;
+    }
+
+    .navBarWrapper{
+        display: block;
+    }
+
+    .sec2{
+        flex-direction: row;
+        height: 78vh;
+        justify-content: center;
+    }
+
+    .sec2 .heroLrg{
+        display:inline-block;
+        position: relative;
+        padding: 25px;
+        margin-right: 150px;
+    }
+
+    .sec2 .sec2A .sec2Atxt h1{
+        font-size: 42px;
+        display: block;
+    }
+    .sec3{
+        flex-direction: row;
+    }
+
+    .sec3 .sec3W {
+        width: 40%;
+    }
+
+    .sec3Cont{
+        transform: translateY(65%);
+    }
+
+    .sec4 .sec4W, .sec6 .data{
+        width: 45%;
+    }
+
+    .sec4 .sec4W h3{
+        font-size: 28px;
+    }
+
+    .sec4 .sec4W h4{
+        font-size: 18px;
+    }
+
+    .sec4 .sec4W ul{
+        margin: 15px;
+    }
+
+    .mobilePar{
+        display: flex;
+    }
+
+    #sec7 .socialPar {
+        flex-direction: column;
+    }
+
+    #sec7 h4{
+        width: 40%;
+    }
+
+    .sec6 .slideWrap .dotCont {
+        width: 100%;
+        transform: translateX(-10px);
+    }
+
+    .sec6 .slideWrap {
+        width: 60%;
+    }
+
+    .logo2{
+        display: none;
+    }
+
+    .data h4{
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 1400px){
+        .sec2 .btnW .btn,
+    .sec2 .submitBtn .btn{
+        padding: .8rem .5rem;
+        font-size: 18px;
+    }
+
+    .sec3 h3, .sec4W h3{
+        font-size: 30px;
+        margin: 1rem;
+    }
+
+    .sec3 p, .sec4 .sec4W h4{
+        font-size: 21px;
+    }
+
+    .sec4 .sec4W ul, .data p{
+        font-size: 19px;
+    }
+
+    .largeScreen{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .sec5 h1, .sec6 h1{
+        font-size: 36px;
+        margin: 15px;
+    }
+
+    .studies h3{
+        font-size: 28px;
+    }
+
+    .studies li, .sec6 .data h4{
+        font-size: 26px;
+    }
+
+    .sec5, .sec6{
+        margin: auto;
+    }
+
+    .sec6 .slideWrap {
+        height: 20vh;
+        width: 250px;
+
+    }
+
+    .sec6 .slideWrap .slideBtn{
+        transform: translateY(-25%);
+        font-size: 40px;
+    }
+
+    .sec6 .slideWrap .next{
+        right: -50px;
+    }
+
+    .sec6 .slideWrap .prev{
+        left: -50px;
+    }
+
+    .sec6 .slideWrap{
+        padding: 25px;
+    }
+
+    .sec6 .slideWrap .dotCont {
+        transform: translateX(-35px);
+    }
+
+    .sec6 .data{
+        width: 350px;
+    }
+
+    .sec6 .data h2{
+        margin: 1rem;
+    }
+}
